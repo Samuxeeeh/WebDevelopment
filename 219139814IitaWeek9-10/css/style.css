@@ -1,0 +1,177 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: verdana;
+	box-sizing: border-box; 
+	
+}
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	font-family: verdana;
+}
+header{
+	height: 15vh;
+	background-size: cover;
+	background-position: center;
+}
+ 
+ul{
+	float: right;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	list-style: none;
+	opacity: .8;
+	line-height: 40px;
+	text-align: right;
+}
+
+
+ul li a{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	display: block;
+	padding: 5px 20px;
+	border: 3px solid rgb(26, 43, 92);
+	transition: .6s ease;
+	text-align: center;
+	border-radius: 7px;
+	font-size: inherit;
+}
+
+ul li a:hover{
+	background-color: rgb(251, 174, 22);
+	color: rgb(26, 43, 92);
+}
+
+li a:hover{
+	background-color: rgb(184, 32, 37);
+	color: yellow;
+}
+
+ul li ul li{
+	display: none;
+}
+
+ul li:hover ul li{
+	display: block;
+}
+
+ul li.active a{
+	background-color: rgb(251, 174, 22);
+	color: black;
+	border-radius: 7px;
+}
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h3{
+	margin: 15px;
+}
+ ol li{
+	margin: 70px;
+	padding: 0px;
+}
+
+
+.heading{
+	color : rgb(26, 43, 92);
+}  	
+
+    	td{
+			
+			border-collapse: collapse;
+			padding: 10px;
+			font-size: 20px; 
+		}
+		th{
+			background: #FEFE3E;
+			padding: 30px;
+			text-transform: uppercase;
+			border-bottom: double;
+			border-bottom-width: 10px;
+			border-collapse: collapse;
+			border-radius: .2cm;
+
+
+		}
+
+		#me img{
+			border-radius: 30px;
+			border-color: 3px solid rgb(128, 0, 0);
+		}
+
+		table {
+			margin-left: 70px;
+			caption-side: bottom;
+			height: 150vh;
+			width: 90%;
+			text-align: left;
+			padding: 1cm;
+			border-radius: 50px;
+			border-right: solid;
+			border-style: double;
+		}
+
+		table tr{
+			border-radius: 3px;
+		}
+
+		body h1{
+			color: rgb(26, 43, 92);
+			padding: 10px;
+		}
+
+
+
+		img.Cpic{
+			border-radius: 30px;
+		}
+
+		ol{
+		  list-style: upper-roman;
+		}
+
+
+	table tr:hover{
+	background-color: #FEFE3E;
+	color: rgb(26, 43, 92);
+}
+
+tr:nth-child(even){
+	background-color: #eca90d;
+}
+
+footer{
+	text-align: center;
+	background-color: rgb(251, 174, 22);
+	padding: 50px;
+}
+
+.pro{
+	border: 5px solid rgb(26, 43, 92);
+}

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Registration</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<style>
+		* {
+			text-decoration: none;
+
+		}
+
+		.register {
+			width: 500px;
+			margin: 0px 0px 0px 360px;
+			font-size: 18px;
+			padding: 20px;
+			border-radius: 3px;
+		}
+
+		#register {
+			margin-left: 150px;
+		}
+
+		label {
+			color: black;
+			font-size: 20px;
+			font-style: italic;
+		}
+
+		.number {
+			width: 85px;
+			padding: 7px;
+			border-radius: 3px;
+		}
+
+		input[type="password"] {
+			width: 450px;
+			border-radius: 7px;
+			padding: 7px;
+			background-color: rgb(251, 174, 22);
+			color: rgb(26, 43, 92);
+		}
+
+		input[type="text"] {
+			width: 450px;
+			border-radius: 7px;
+			padding: 7px;
+			background-color: rgb(251, 174, 22);
+			color: rgb(26, 43, 92);
+		}
+
+		input[type="email"] {
+			width: 450px;
+			border-radius: 7px;
+			padding: 7px;
+			background-color: rgb(251, 174, 22);
+			color: rgb(26, 43, 92);
+		}
+
+		input[type="date"] {
+			width: 450px;
+			border-radius: 7px;
+			padding: 7px;
+			background-color: rgb(251, 174, 22);
+			color: rgb(26, 43, 92);
+		}
+
+		input[type="Address"] {
+			width: 450px;
+			border-radius: 7px;
+			padding: 7px;
+			background-color: rgb(251, 174, 22);
+			color: rgb(26, 43, 92);
+		}
+
+		input[type="number"] {
+			width: 200px;
+			border-radius: 7px;
+			padding: 7px;
+			background-color: rgb(251, 174, 22);
+			color: rgb(26, 43, 92);
+		}
+
+		#tribe-select {
+			width: 450px;
+			border-radius: 7px;
+			padding: 7px;
+			background-color: rgb(251, 174, 22);
+			color: rgb(26, 43, 92);
+		}
+
+
+		.phoneNumber {
+			width: 450px;
+			padding: 7px;
+			border-radius: 3px;
+		}
+
+		#sub {
+			align-content: center;
+			width: 200px;
+			padding: 7px;
+			font-size: 16px;
+			font-style: italic;
+			font-weight: 600;
+			margin-left: 50px;
+			cursor: pointer;
+			background-color: rgb(251, 174, 22);
+			border: none;
+			text-decoration: none;
+			border-radius: 30px;
+		}
+
+		::placeholder {
+			color: rgb(26, 43, 92);
+			opacity: 50%;
+		}
+
+		table,
+		th,
+		td {
+
+			border-collapse: collapse;
+			padding: 20px;
+			font-size: 20px;
+		}
+
+		th {
+			background: rgb(251, 174, 22);
+			padding: 30px;
+			text-transform: uppercase;
+			border-bottom: double;
+			border-bottom-width: 10px;
+		}
+
+		#eop {
+			font-weight: 400px;
+			border-bottom: double;
+		}
+
+		input:focus {
+			background-color: gainsboro;
+		}
+
+		textarea {
+			background-color: rgb(251, 174, 22);
+			padding-top: 10px;
+			padding-left: 5px;
+			width: 450px;
+			border-radius: 9px;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<div class="main">
+			<div class="logo">
+				<img src="img/logo.png">
+			</div>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="activities.html">Activities</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="programme.html">Programme</a></li>
+				<li class="active"><a href="registration.html">Registration</a></li>
+			</ul>
+	</header>
+	<center>
+		<h1>Registration Form</h1>
+	</center>
+
+	<div class="register">
+		<form method="post" action="MAILTO:iitasamuel15@gmail.com" enctype="text/plain" id="register" name="theform">
+
+			<label>First Name : </label><br>
+			<input type="text" name="First-name" id="fullname" placeholder="Enter your First Name"><br><br>
+			<label>Last Name : </label><br>
+			<input type="text" name="Last-name" id="lastname" placeholder="Enter your Last Name"><br><br>
+			<label>Username : </label><br>
+			<input type="text" name="Username" id="username" placeholder="Enter your Username"><br><br>
+			<label>Email Address : </label><br>
+			<input type="email" name="Email" id="email" placeholder="Enter your E-mail Address"><br><br>
+			<label>Date of Birth : </label><br>
+			<input type="date" name="Date_of_birth" id="DOB" placeholder="Enter DAte of Birth"><br><br>
+			<label>Home Address: </label><br>
+			<textarea rows="10" cols="50" name="Residential_Address" id="residential_address"
+				placeholder="Enter your residential address here...."></textarea><br><br>
+			<label>Mobile Number : </label><br>
+			<select name="phoneNumber" id="phonenum">
+				<option>+264</option>
+				<option>+244</option>
+				<option>+243</option>
+				<option>+258</option>
+				<option>+265</option>
+				<option>+27</option>
+				<option>+267</option>
+				<option>+263</option>
+				<option>+266</option>
+				<option>+260</option>
+			</select>
+			<input type="number" name="Cellphone_NO" id="cellNo" placeholder="Enter your cell Number"><br><br>
+			<label for="Traditional Dance Groups">Cultural Group :</label><br>
+			<select id="tribe-select">
+				<option value="">--Please Choose an option--</option>
+				<option value="Oshiwambo">Oshiwambo Traditional Dance Group</option>
+				<option value="Caprivian">Caprivian Traditional Dance Group</option>
+				<option value="Nama">Nama Traditional Dance Group</option>
+				<option value="Tswana">Tswana Traditional Dance Group</option>
+				<option value="Damara">Damara Traditional Dance Group</option>
+				<option value="Kavango">Kavango Traditional Dance Group</option>
+				<option value="Herero">Herero Traditional Dance Group</option>
+				<option value="Baster">Baster Traditional Dance Group</option>
+			</select><br><br>
+			<label>Password : </label><br>
+			<input type="password" name="Password" id="" placeholder="Enter Password"><br><br>
+			<label>Re-Enter your Password : </label><br>
+			<input type="password" name="Password" placeholder="Enter Password"><br><br>
+			<label>Gender : </label><br>
+			<input type="radio" name="gender" id="gender"><span id="gender">&nbsp; Male</span>&nbsp;&nbsp;
+			<input type="radio" name="gender" id="gender"><span id="gender">&nbsp; Female</span>&nbsp;&nbsp;
+			<input type="radio" name="gender" id="gender"><span id="gender">&nbsp; Others</span>&nbsp;&nbsp;<br><br>
+			<p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+			<br><br>
+			<input type="reset" value="Reset" id="sub" /><br><br>
+			<input type="submit" value="Submit" id="sub" onclick="SendingFormData()"><br><br>
+
+
+
+		</form>
+	</div>
+	<table>
+			<tr>
+				<th>Name</th>
+				<th>Trevor</th>
+			</tr>
+			<tt>ojso</tt>
+		</table>
+	<footer>
+		<p>© Copyright 2019 NUST - All Rights Reserved</p><br>
+	</footer>
+	<script src="js/filename.js">
+		function SendingFormData(){
+			document.getElementById("register").submit();
+
+		}
+	</script>
+
+</body>
+
+</html>

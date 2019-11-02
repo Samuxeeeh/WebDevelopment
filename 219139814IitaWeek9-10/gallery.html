@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Gallery</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+	<style type="text/css">
+		h1 {
+			text-align: center;
+			padding: 20px;
+		}
+
+		img {
+			width: 200px;
+			height: 180px;
+		}
+
+		body {
+			text-align: center;
+		}
+
+		.tablegallery {
+			border: none;
+			width: 90%;
+			height: 70%;
+		}
+
+		.me {
+			padding: 25px;
+		}
+
+		th {
+			background: rgb(251, 174, 22);
+			padding: 30px;
+			text-transform: uppercase;
+			margin-left: 0px;
+			margin-right: 0px;
+			border-radius: 30px;
+			height: 5vh;
+
+		}
+
+		#me {
+			border-radius: 50px;
+		}
+
+		.Click {
+			border: 3px solid green;
+			border-radius: 5px;
+		}
+
+		.gallery {
+			margin-top: 7%;
+		}
+
+
+		.left {
+			margin-left: 5%;
+			float: left;
+			width: 350px;
+			height: 50vh;
+			padding-top: 40px;
+			padding-right: 40px;
+			padding-bottom: 40px;
+			padding-left: 40px;
+			border-radius: 50px;
+			border: 4.5px double rgb(244, 74, 107);
+			transition: .6s ease-out;
+		}
+
+
+
+		.right {
+			margin-right: 5%;
+			float: right;
+			width: 350px;
+			height: 50vh;
+			padding-top: 40px;
+			padding-right: 40px;
+			padding-bottom: 40px;
+			padding-left: 40px;
+			border-radius: 50px;
+			border: 4.5px double rgb(252, 94, 232);
+		}
+
+		.middle {
+			margin-left: 0px;
+			width: 350px;
+			height: 50vh;
+			padding-top: 40px;
+			padding-right: 40px;
+			padding-bottom: 40px;
+			padding-left: 40px;
+			border-radius: 50%;
+			border: 4.5px double rgb(215, 105, 90);
+			margin-bottom: 20px;
+		}
+
+		.galpara {
+			font-size: 70px;
+			text-align: center;
+			margin-top: 30px;
+			color: rgb(251, 174, 22);
+		}
+
+		.makeitlarger {
+			font-size: 30px;
+			text-align: center;
+			margin: 30px;
+			color: rgb(184, 32, 37);
+			font-style: italic;
+		}
+	</style>
+
+</head>
+
+<body onclick="week9()">
+	<header>
+		<div class="main">
+			<div class="logo">
+				<img src="img/logo.png">
+			</div>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="activities.html">Activities</a></li>
+				<li class="active"><a href="gallery.html">Gallery</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="programme.html">Programme</a></li>
+				<li><a href="registration.html">Registration</a></li>
+			</ul>
+		</div>
+	</header>
+	<div class="galpara">
+		<p>CULTURAL FESTIVAL GALLERY</p>
+	</div>
+	<div class="makeitlarger">
+		<p>Click on image to make it larger</p>
+	</div>
+
+	<div class="gallery">
+		<a href="img/photo1.jpg"><img src="img/photo1.jpg" class="left"></a>
+		<a href="img/photo2.jpg"><img src="img/photo2.jpg" class="middle"></a>
+		<a href="img/photo3.jpg"><img src="img/photo3.jpg" class="right"></a>
+	</div>
+
+
+	<footer>
+		<p>© Copyright 2019 NUST - All Rights Reserved</p><br>
+	</footer>
+	<script src="js/filename.js">
+	
+	</script>
+
+</body>
+
+</html>
