@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.topshandy{
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -4px;
+}
+
+nav .logo2{
+    height: 12vh;
+    float: left;
+    transition: .6s ease;
+    margin-left: 40px;
+}
+
+.menu-bar{
+    background: rgb(61, 33, 12);
+    text-align: center;
+    height: 13vh;
+}
+
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(242, 105, 35);
+}
+
+.menu-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    float: right;
+    margin-right: 20px;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: rgb(255, 60, 0);
+    transition: 1s ease-in-out;
+    text-transform: uppercase;
+}
+
+.active, .menu-bar ul li:hover{
+    background-color: rgb(99, 59, 29);
+    border-radius: 5px;
+    border: 2px solid rgb(255, 60, 0);
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(243, 106, 36);
+    width: 100%;
+    height: 3cm;
+}
+
+footer img{
+    height: 2cm;
+    width: 2cm;
+}

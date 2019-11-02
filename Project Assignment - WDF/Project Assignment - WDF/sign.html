@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Sign-Up</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<!--Embedded Styling to make our sign page look awesome-->
+    <style>
+        #sign-heading{
+            float: left;
+            margin-left: 50px;
+            font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-seri;
+            font-size: 18px;
+            margin-top: 20pt;
+            border: 3px double rgb(61, 33, 12); 
+            color: rgb(255, 60, 0);
+            background-color: rgba(99, 59, 29, 0.747);
+            border-radius: 5px;
+        }
+
+        footer{
+            margin-top: -1%;
+        }
+
+        input{
+            margin: 10px;
+            padding: 10px;
+            margin-left: 50px;
+        }
+
+        select{
+            margin: 10px;
+            margin-left: 50px;
+            padding: 10px;
+        }
+
+        #fname{
+            margin-top: 50px;
+            width: 350px;
+            margin-left: 50px; 
+	    border: 2px solid rgb(255, 60, 0);
+        }
+
+        #lname{
+            width: 350px;
+	    border: 2px solid rgb(255, 60, 0);
+        }
+
+        #num{
+            width: 350px;
+	    border: 2px solid rgb(255, 60, 0);
+        }
+
+        #mail{
+            width: 350px;
+	    border: 2px solid rgb(255, 60, 0);
+        }
+
+        #job{
+            width: 350px;
+	    border: 2px solid rgb(255, 60, 0);
+        }
+
+        #sub{
+            width: 350px;
+	    border: 2px solid rgb(255, 60, 0);
+        }
+
+        #agreeing{
+            font-size: 15px;
+            margin-left: 50px;
+        }
+
+        #gender{
+            padding: 1px;
+        }
+
+        .form_background{
+            background: url('img/obj.jpg') no-repeat;
+            background-size: cover;
+        }
+
+	#file_uploading{
+	width: 350px;
+	border: 2px solid rgb(255, 60, 0);
+	}
+
+    </style>
+
+<body>
+        <img class="topshandy" src="img/log.png">
+        <nav  class="menu-bar">
+            <div class="logo">
+                <a href="index.html"><img class="logo2" src="img/logo.png"></a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="active"><a href="sign.html">Sign-Up</a></li>
+            </ul>
+        </nav>
+
+        <p id="sign-heading">If you think you got the skills to make Cleveland Browns become a better team look into our vacant positions</p>
+            <form action="mailto:iitasamuel15@gmail.com" method="post">
+                <div class="form_background"><br><br><br><br>
+                <input type="text" name="firstName" id="fname" placeholder="First Name"><br><br>
+                <input type="text" name="Lastname" id="lname" placeholder="Last Name"><br><br>
+                <input type="number" name="number" id="num" placeholder="Cell Number"><br><br>
+                <input type="email" name="email" id="mail" placeholder="Email"><br><br>
+                <select name="Job" id="job">
+                    <option value="">--Please Choose an option--</option>
+                    <option value="Coach">Coach</option>
+                    <option value="Medical Team">Medical Team</option>
+                    <option value="Trainee">Trainee</option>
+                </select><br><br>
+		<input type="file" id="file_uploading"><br><br>
+                <input type="radio" name="gender" id="gender"><span id="gender">&nbsp; Male</span>&nbsp;&nbsp;
+			    <input type="radio" name="gender" id="gender"><span id="gender">&nbsp; Female</span>&nbsp;&nbsp;
+			    <input type="radio" name="gender" id="gender"><span id="gender">&nbsp; Others</span>&nbsp;&nbsp;<br><br>
+			    <p id="agreeing">By signing up you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+			    <br><br>
+			    <input type="reset" value="Reset" id="sub" /><br><br>
+			    <input type="submit" value="Submit" id="sub" onclick="SendingFormData()"><br><br>
+                </div>
+            </form>
+        <footer>
+                <img src="img/bulldog.jpg">
+                <p>© 2019 Cleveland Browns. All Rights Reserved</p>
+        </footer>
+        <!--Linking to the external javascript-->
+        <script src="js/ass.js"></script>
+</body>
+</html>
