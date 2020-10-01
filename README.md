@@ -1,2 +1,2 @@
 # WebDevelopment
-This is for storing my Web Development Projects
+This is for storing my amazing Web Development Projects
